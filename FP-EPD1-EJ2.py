@@ -1,6 +1,6 @@
 print("| Gestión de Alimento |")
 
-# Preguntamos datos, alimento, stock y animales
+# Preguntamos datos → alimento, stock y animales
 nombre_alimento = input("· ¿Que tipo de alimento será?: ") 
 stock_inicial = float(input("· ¿Que cantidad de alimento tendrá?: "))
 cantidad_animal = int(input("· ¿Cuantos animales habrá?: "))
