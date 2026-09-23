@@ -1,6 +1,6 @@
 import random
 
-print("| Juego Dados 2 Jugadores |")
+print("| Juego Dados 2 Jugadores |\n")
 
 # Preguntamos los nombres de ambos jugadores
 player_1 = input("· Como se llamará el primer jugador?: ")
