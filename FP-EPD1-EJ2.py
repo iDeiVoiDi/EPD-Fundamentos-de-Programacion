@@ -1,4 +1,4 @@
-print("| Gestión de Alimento |")
+print("| Gestión de Alimento |\n")
 
 # Preguntamos datos → alimento, stock y animales
 nombre_alimento = input("· ¿Que tipo de alimento será?: ") 
