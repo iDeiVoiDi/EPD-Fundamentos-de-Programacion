@@ -1,5 +1,7 @@
 import random
 
+print("| Juego Dados 2 Jugadores |")
+
 #Preguntamos los nombres de ambos jugadores
 player_1 = input("· Como se llamará el primer jugador?: ")
 player_2 = input("· Como se llamará el segundo jugador?: ")
