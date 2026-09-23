@@ -10,4 +10,4 @@ cantidad_animal = int(input("· ¿Cuantos animales habrá?: "))
 consumo = (cantidad_animal * 0.25) * 7
 
 # Mostramos el informe con los datos obtenidos
-print(f"| Informe:\n→ Stock Inicial: {stock_inicial}\n→ Consumo semanal: {consumo}\n→ Stock Final: {stock_inicial - consumo}")
+print(f"\n| Informe:\n→ Stock Inicial: {stock_inicial}\n→ Consumo semanal: {consumo}\n→ Stock Final: {stock_inicial - consumo}")
