@@ -13,13 +13,6 @@ num_1_2 = random.randint(1,6)
 num_2_1 = random.randint(1,6)
 num_2_2 = random.randint(1,6)
 
-# Calculamos la puntuacion total de cada jugador y su diferencia
-puntuacion_1 = num_1_1 + num_1_2
-puntuacion_2 = num_2_1 + num_2_2
-
-#! Puede ser negativo, pero el ejercicio pide hacerlo asi
-diferencia = puntuacion_1 - puntuacion_2  
-
 # Imprimimos los resultados por pantalla del resultado
-print(f"| La diferencia de puntos del primer al segundo jugador es: {diferencia}")
-print(f"| El resumen de la puntuación es: \n→{player_1}: {puntuacion_1}\n→{player_2}: {puntuacion_2} ")
+print(f"| La diferencia de puntos del primer al segundo jugador es: {(num_1_1 + num_1_2) - (num_2_1 + num_2_2)}") #! Puede ser negativo, pero el ejercicio pide hacerlo asi
+print(f"| El resumen de la puntuación es: \n→ {player_1}: {num_1_1 + num_1_2}\n→ {player_2}: {num_2_1 + num_2_2}")
