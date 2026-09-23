@@ -14,5 +14,5 @@ num_2_1 = random.randint(1,6)
 num_2_2 = random.randint(1,6)
 
 # Mostramos el informe con los datos obtenidos
-print(f"| La diferencia de puntos del primer al segundo jugador es: {(num_1_1 + num_1_2) - (num_2_1 + num_2_2)}") #! Puede ser negativo, pero el ejercicio pide hacerlo asi
+print(f"\n| La diferencia de puntos del primer al segundo jugador es: {(num_1_1 + num_1_2) - (num_2_1 + num_2_2)}") #! Puede ser negativo, pero el ejercicio pide hacerlo asi
 print(f"| El resumen de la puntuación es: \n→ {player_1}: {num_1_1 + num_1_2}\n→ {player_2}: {num_2_1 + num_2_2}")
