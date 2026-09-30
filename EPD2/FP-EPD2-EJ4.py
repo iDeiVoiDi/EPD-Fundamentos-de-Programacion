@@ -1,4 +1,4 @@
-print("| Sugerencia de amistad |\n")
+print("| Recomendación de Actividad Fisica |\n")
 
 # Marco las variables de estado
 actividad_interior = False
